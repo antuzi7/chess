@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 from enum import Enum
 
 
@@ -13,6 +13,6 @@ class Figure(ABC):
         self.y = y
 
 
-    @abstactmethod
+    @abstractmethod
     def move(self, x, y):
         pass
